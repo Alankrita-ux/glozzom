@@ -1,0 +1,78 @@
+/*------------navigation- bar-------*/
+
+#nav-bar .navbar-brand {
+    color: #fff;
+    margin-left: 70px;
+}
+
+#nav-bar ul li a.nav-link {
+    color: grey;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+#nav-bar ul li a.nav-link:hover{
+    color: #fff;
+}
+
+
+#nav-bar  .nav-item.active  .nav-link{
+    color: #fff;
+}
+
+#ban {
+
+    position: relative;
+    background-image: url(../img/image1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+
+#ban .overlay{
+    background-color: #333333;
+    opacity: 0.9;
+    height: 200px;
+    position: absolute;
+    width: 100%;
+
+}
+
+#ban h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+}
+
+#ban p{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+/*--------cards--------*/
+
+#cards img{
+    height: 200px; 
+}
+
+#cards h6{
+    font-size: 10px;
+}
+
+#cards .card .lead{
+    font-size: 15px;
+    color: grey;
+}
+
+/*---------footer---------*/
+
+#footer {
+    background-color: black;
+}
+
+#footer h1 {
+    font-size: 15px;
+    color: #fff;
+}
